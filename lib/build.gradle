@@ -28,7 +28,10 @@ dependencies {
     implementation 'com.google.guava:guava:31.0.1-jre'
     
     //github repo from part (a)
-	implementation 'com.github.aidandempsey:CT417-Assignment1:v0'
+    implementation 'com.github.aidandempsey:CT417-Assignment1:v0'
+    
+    //Terasoluna Joda Time classes
+     implementation 'org.terasoluna.gfw:terasoluna-gfw-jodatime:5.7.1.SP1.RELEASE'
 }
 
 tasks.named('test') {
